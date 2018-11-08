@@ -5,7 +5,7 @@ scripts for the Functional Programming COP talk on Tagless Final DSLs in Scala.
 
 
 ## Prerequisites
-### Jupyter notebook
+### Intall Jupyter and Almond
 
 This assumes you have Python and `pip` installed. Using a `virtualenv` or
 `Anaconda/miniconda` environment is also recommended.
@@ -27,7 +27,7 @@ More comprehensive instructions for installing `almond` can be found on the
 [`almond`](http://almond-sh.github.io/almond/stable/docs/quick-start-install)
 website.
 
-### Ammonite scripts
+### Install Ammonite
 
 In order to run the Ammonite scripts, you will need to install Ammonite.
 Installations instructions can be found on the [Ammonite website](http://ammonite.io/).
@@ -52,8 +52,9 @@ $ git clone https://github.com/keithschulze/fp-cop-tagless-final
 $ cd /path/to/projects/fp-cop-tagless-final
 $ jupyter notebook
 ```
-Note: Remember to activate you `virtualenv` if you installed Jupyter in one.
-Note: Jupyter on work with JDK1.8. If your kernel fails to start, see these
+Note: Remember to activate your `virtualenv` if you installed Jupyter in one.
+Note: Almond only seems to work with JDK1.8. If your kernel fails to start, see
+these
 [instructions](https://github.com/almond-sh/almond/issues/188#issuecomment-383221894).
 
 ## Run Ammonite scripts
